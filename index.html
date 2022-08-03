@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>혜림's의 portfolio</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+	<header id="header">
+		<div class="menu">
+			<ul>
+				<li><a href="#start">HOME</a></li>
+				<li><a href="#page1">INTRODUCE ME</a></li>
+				<li><a href="#page2">SPECIALITY</a></li>
+				<li><a href="#page3">PORTFOLIO</a></li>
+				<li><a href="#page4">CONTACT</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="fix_logo">
+		<h1 id="logo"><a href="">logo</a></h1>
+	</div>
+	<div class="fix_tab">
+		<a href="">
+			<i class="accessbility">tabs</i>
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+	<div class="floating_menu">
+		<div class="gnb_bg"></div>
+		<div class="gnb">
+			<ul>
+				<li><a href="#start">HOME</a></li>
+				<li><a href="#page1">INTRODUCE ME</a></li>
+				<li><a href="#page2">SPECIALITY</a></li>
+				<li><a href="#page3">PORTFOLIO</a></li>
+				<li><a href="#page4">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="start">
+		<div class="keytext">
+			<p>UI / UX WEB DESIGNER aim to become Front-End Developer</p>
+			<h3>Welcome!    Nice to meet U <br>My portfolio.</h3>
+		</div>
+		<div class="v_controller">
+			<a href="" class="prev"></a> <!--inline-block-->
+			<ul class="count"><!--얘도 꼭 써야함 아님 떨어져!inline-block-->
+				<li><a href="">1</a></li><!--inline-block / 가상요소는 여기!-->
+				<li><a href="">2</a></li>
+				<li><a href="">3</a></li>
+			</ul>
+			<!-- <svg viewBox="{min-x} {min-y} {width %} {height %}">  -->
+			<svg class="loader" viewBox="0 0 100 100">
+				<circle class="circle" cx="50" cy="50" r="30"><!--r:반지름--></circle>
+			</svg>
+			<a href="" class="next"></a>
+			<span class="num"><span>1</span> / 3</span>
+		</div>
+
+		<div class="media">
+			<video id="my_video" src="video/video1.mp4" muted></video>
+		</div>
+		<div class="controller">
+			<ul>
+				<li><a href="">01 <span>home</span></a></li>
+				<li><a href="">02 <span>Introduce Me</span></a></li>
+				<li><a href="">03 <span>speciality</span></a></li>
+				<li><a href="">04 <span>portfolio</span></a></li>
+				<li><a href="">05 <span>contact</span></a></li>
+			</ul>
+		</div>
+		<div class="fix_copy">RIM's Portfolio</div>
+		<div class="fix_contact">
+			<p class="contact">Contact RIM</p>
+			<p class="adress">
+				GWACHEON-si, Gyeonggi-do<br>
+				Tel. 010-7587-0538<br>
+				E-mail. roysh213@gmail.com
+			</p>
+			<p class="checkout">
+				<a href="">
+					<span>DOWNLOAD RESUME</span>
+					<img src="images/arr_w.png" alt="next">
+				</a>
+			</p>
+		</div>
+	</div>
+
+	
+	<section id="page1">
+		<div class="inner clearfix">
+			<div class="text">
+				<div class="title">
+					<p>Introduce me.</p>
+					<p><b>꾸준함</b>과 <b>가능성</b>을 가진</p>
+					<p>신 혜림 입니다</p>
+				</div>
+				<div class="desc">
+					<div class="profile">
+						<p>
+							<span class="title">AGE</span>
+							<span>1991. 02. 13</span>
+						</p>
+						<p>
+							<span class="title">EDUCATION</span>
+							<span>오산대학 경영학과</span>
+						</p>
+						<p>
+							<span class="title">CONTACT</span>
+							<span>010-7587-0538<br>
+							roysh213@gmail.com</span>
+						</p>
+					</div>
+					<div class="skill">
+						<p>
+							<span class="title">SKILLS</span>
+							<span>
+								<!-- 사진으로 넣을까? -->
+								HTML5 DTD 문법 준수<br>
+								반응형 페이지 스타일 작성<br class="line">
+								모바일 페이지 스타일 작성<br>
+								웹디자인 기능사 자격증<br class="line">
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="photo">
+				<img src="images/profiles.png" alt="profile">
+			</div>
+		</div>
+	</section>
+	<section id="page2">
+		<div class="project_label">
+			<h2>SPECIALITY</h2>
+			<span>Skill trees</span>
+ 		</div>
+		<div class="banner clearfix">
+			<ul>
+				<li>
+					<a href="">
+						<div class="default">
+							<img src="images/skill1.png" alt="skill1">
+							<div class="text">
+								<p class="title">STRUCTURE</p>
+								<p>html5 & css3</p>
+							</div>
+						</div>
+						<div class="hidden">
+							<img src="images/h_skill1.png" alt="h_skill1">
+							<div class="text">
+								<p class="title">HTML & CSS</p>
+								<p>
+									HTML5 DTD 문법 준수<br>
+									웹 접근성을 높인 Semantic Page 작성<br>
+									CSS를 이용한 IR 기법<br>
+									반응형 웹 페이지 및 모바일 페이지 작성
+								</p>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="default">
+							<img src="images/skill2.png" alt="skill2">
+							<div class="text">
+								<p class="title">SCM</p>
+								<p>Github</p>
+							</div>
+						</div>
+						<div class="hidden">
+							<img src="images/h_skill2.png" alt="h_skill2">
+							<div class="text">
+								<p class="title">Github</p>
+								<p>GitHub를 이용한 협업 가능</p>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="default">
+							<img src="images/skill3.png" alt="skill3">
+							<div class="text">
+								<!--  -->
+								<p class="title">INTERACRION</p>
+								<p>jQuery / JavaScript</p>
+							</div>
+						</div>
+						<div class="hidden">
+							<img src="images/h_skill3.png" alt="h_skill3">
+							<div class="text">
+								<p class="title">jQuery / JavaScript</p>
+								<p>
+									JavaScript 플러그인 활용<br>
+									Parallax 웹 페이지를 구현 가능<br>
+									JavaScript 라이브러리 가능
+								</p>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="page3">
+		<div class="inner">
+			<div class="project_label">
+				<h2>PORTFOLIO</h2>
+				<span>Web Publishing</span>
+			</div>
+			<div id="project1" class="project">
+				<div class="title_area">
+					<div class="title">
+						<a href="">
+							<div class="ico"><i class="fas fa-play"></i></div>
+							<div class="txt">
+								<h3>HIGHONE FOOD</h3>
+								<span>HIGHONE WEB SITE</span>
+							</div>
+						</a>
+					</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">#SITE</span>
+								<span>Highone Food</span>
+							</li>
+							<li>
+								<span class="label">#Date</span>
+								<span>3Weeks</span>
+							</li>
+							<li>
+								<span class="label">#Type</span>
+								<span>Desktop / Mobile</span>
+							</li>
+							<li>
+								<span class="label">#CATEGORY</span>
+								<span>Apparel</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="fixed_area"></div>
+				<div class="overview_area">
+					<div class="title">PROJECT OVERVIEW</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">RENEWAL POINT</span>
+								<span>Brand Strategy, UI / UX</span>
+							</li>
+							<li>
+								<span class="label">STRUCTURE</span>
+								<span>HTML / CSS</span>
+							</li>
+							<li>
+								<span class="label">INTERACTIVE</span>
+								<span>jQuery</span>
+							</li>
+							<li>
+								<span class="label">SCM</span>
+								<span>Github</span>
+							</li>
+						</ul>
+					</div>
+					<div class="link">
+						<span>LINK</span>
+						<a href="" class="project1" target="portfolio">
+							사이트 바로가기
+						</a>
+					</div>
+				</div>
+				<div id="pc1" class="pc">
+					<div class="inner">
+						<div class="title">
+							<span>DESKTOP DESIGN</span>
+							<p>카테고리 분류가 복잡한 사이트의 특성을 고려하여<br>사용자가 다양한 페이지에 접근하기 쉽도록 레이아웃을 구성했습니다.</p>
+						</div>
+						<div class="photo">
+							<img src="images/pro1_desktop.png" alt="pc modal">
+						</div>
+					</div>
+				</div>
+				<div id="mo1" class="mobile">
+					<div class="inner">
+						<div class="title">
+							<span>MOBILE DESIGN</span>
+							<p>먼저 진행된 PC버전을 바탕으로 모바일에 최적화된 화면을 구성했습니다.<br>PC에 비해 직관적인 레이아웃을 선택하여 컨텐츠를 구성하였습니다.</p>
+						</div>
+						<div class="photo">
+							<ul>
+								<li><img src="images/pro1_mob1.png" alt="mob1"></li>
+								<li><img src="images/pro1_mob2.png" alt="mob2"></li>
+								<li><img src="images/pro1_mob3.png" alt="mob3"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="project2" class="project">
+				<div class="title_area">
+					<div class="title">
+						<a href="">
+							<div class="ico"><i class="fas fa-play"></i></div>
+							<div class="txt">
+								<h3>한국예술종합학교</h3>
+								<span>DISCOVERY WEB SITE</span>
+							</div>
+						</a>
+					</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">#SITE</span>
+								<span>한국예술종합학교</span>
+							</li>
+							<li>
+								<span class="label">#Date</span>
+								<span>3Weeks</span>
+							</li>
+							<li>
+								<span class="label">#Type</span>
+								<span>Responsive</span>
+							</li>
+							<li>
+								<span class="label">#CATEGORY</span>
+								<span>Agency</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="fixed_area"></div>
+				<div class="overview_area">
+					<div class="title">PROJECT OVERVIEW</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">RENEWAL POINT</span>
+								<span>Brand Strategy, UI / UX</span>
+							</li>
+							<li>
+								<span class="label">STRUCTURE</span>
+								<span>HTML / CSS</span>
+							</li>
+							<li>
+								<span class="label">INTERACTIVE</span>
+								<span>jQuery</span>
+							</li>
+							<li>
+								<span class="label">SCM</span>
+								<span>Github</span>
+							</li>
+						</ul>
+					</div>
+					<div class="link">
+						<span>LINK</span>
+						<a href="" class="project2" target="portfolio">
+							사이트 바로가기
+						</a>
+					</div>
+				</div>
+				<div id="pc2" class="pc">
+					<div class="inner">
+						<div class="title">
+							<span>DESKTOP DESIGN</span>
+							<p>사이트 내 모든 페이지에 접근할 수 있도록 메뉴를 구성하였으며<br>다양한 디바이스에서 웹을 이용할 수 있도록 반응형 사이트로 제작하였습니다.</p>
+						</div>
+						<div class="photo">
+							<img src="images/pro2_desktop.png" alt="pc modal">
+						</div>
+					</div>
+				</div>
+				<div id="mo2" class="mobile">
+					<div class="inner">
+						<div class="title">
+							<span>MOBILE DESIGN</span>
+							<p>먼저 진행된 PC버전을 바탕으로 모바일에 최적화된 화면을 구성했습니다.<br>모바일에서도 PC와 동일한 경험으로 제공하며 각 메뉴로의 접근이 용이하게 설계했습니다.</p>
+						</div>
+						<div class="photo">
+							<ul>
+								<li><img src="images/pro2_mob2.png" alt="mo1"></li>
+								<li><img src="images/pro2_mob1.png" alt="mo2"></li>
+								<li><img src="images/pro2_mob3.png" alt="mo3"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="page4">
+		<div class="text">
+			<p>CONTACT</p>
+			<span>Tel. 010-7587-0538</span>
+			<span>E-mail. roysh213@gmail.com</span>
+		</div>
+	</section>
+</div>
+</body>
+</html>
